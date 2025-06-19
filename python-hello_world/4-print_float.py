@@ -1,11 +1,15 @@
 #!/usr/bin/python3
-number = -98.12 
-if type(number) == float:
-    print(f"Float: {number:.2f}")
-else:
-    print("Wrong type")
+# -*- coding: utf-8 -*-
 
-print_float(333.12)   # musbet
-print_float(-98.12)   # menfi
-print_float(0.0)      # sifirÄ±
-print_float("hello")  # sehv tip
+def print_float(number):
+    if type(number) is float:
+        print(f"Float: {number:.2f}")
+    else:
+        print("Wrong type")
+
+print_float(333.12)    # Positive float
+print_float(-98.12)    # Negative float
+print_float(0.0)       # Zero
+print_float("test")    # Wrong type
+
+         Ä
