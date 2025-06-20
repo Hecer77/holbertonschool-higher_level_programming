@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-sentence="object-oriented programming with Python"
-words=sentence.split()
-space = chr(32)
-first_four_words = space.join(words[0:4])
-print(first_four_words)
+str = "Python is an interpreted, interactive, object-oriented programming\
+ language that combines remarkable power with very clear syntax"
+str = str[39:67] + " with Python"
+print(str)
+
 
