@@ -2,8 +2,6 @@
 import sys
 
 
-
-
 def main():
     args = sys.argv[1:]
 
@@ -14,11 +12,11 @@ def main():
     total = 0
 
     for arg in args:
-         total += int(arg)
+        total += int(arg)
 
     print(total)
 
 
-
 if __name__ == "__main__":
-    main() 
+    main()
+
