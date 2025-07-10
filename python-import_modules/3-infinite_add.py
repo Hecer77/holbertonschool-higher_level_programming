@@ -15,7 +15,7 @@ def main():
 
     for arg in args:
          total += int(arg)
-         
+
     print(total)
 
 
