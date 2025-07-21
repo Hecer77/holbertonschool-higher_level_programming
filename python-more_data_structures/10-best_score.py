@@ -9,4 +9,3 @@ def best_score(a_dictionary):
         if best is None or a_dictionary[key] > a_dictionary[best]:
             best = key
     return best
-
