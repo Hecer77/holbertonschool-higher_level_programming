@@ -8,19 +8,19 @@ def list_division(my_list_1, my_list_2, list_length):
 
             if not isinstance(elem1, (int, float)) or \
                not isinstance(elem2, (int, float)):
-                print("yanlış tip")
+                print("wrong type")
                 result.append(0)
                 continue
 
             if elem2 == 0:
-                print("0-a bölmə")
+                print("division by 0")
                 result.append(0)
                 continue
 
             result.append(elem1 / elem2)
 
         except IndexError:
-            print("siyahıdan kənar")
+            print("out of range")
             result.append(0)
 
         finally:
