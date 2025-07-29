@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+"""
+Bu modul Rectangle sinfini təyin edir.
+Sinif genişlik və hündürlük atributları ilə obyekt yaradır
+və bu atributların doğruluğunu setter-lərlə yoxlayır.
+"""
+
 class Rectangle:
     def __init__(self, width= 0 , height= 0):
         self.width = width
