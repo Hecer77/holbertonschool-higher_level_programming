@@ -5,6 +5,7 @@ Sinif genişlik və hündürlük atributları ilə obyekt yaradır
 və bu atributların doğruluğunu setter-lərlə yoxlayır.
 """
 
+
 class Rectangle:
     """Genişlik və hündürlüyə sahib düzbucaqlı sinfi"""
 
